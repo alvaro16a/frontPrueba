@@ -6,7 +6,7 @@ import { HttpClient, HttpHeaders } from '@angular/common/http';
 })
 export class GetStudentService {
 
-  _url="http://localhost:8080/studentGrades"
+  _url="https://notes-gestor-sofka.herokuapp.com/studentGrades"
 
   constructor(private http:HttpClient) { }
 
